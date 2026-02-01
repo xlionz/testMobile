@@ -1,9 +1,9 @@
-# Framework de Automatización de Pruebas para Mobile 📱🚀
+# Framework de Automatización de Pruebas para Mobile 📱
 
 ## Objetivo
-se explicara a detalle como se compone el framke de esta automatizacion. Su lenjuage de desarrollo, arquitectura, dependencias y ejecución.
+   Se explicara a detalle cómo se compone el frame de esta automatizacion. Su lenguaje de desarrollo, arquitectura, dependencias y ejecución.
 
-## Tecnologías y Herramientas Que Se Usaron 🖥️🛠️
+## Tecnologías y Herramientas Que Se Usaron 
   - **Lenguaje**: Java 11+.
   - **Framework de Testing**: JUnit.
   - **Automatización mobile**: Appium.
@@ -13,7 +13,7 @@ se explicara a detalle como se compone el framke de esta automatizacion. Su lenj
   - **LOGS**: SLF4J.
 
 
-## Estructura del Proyecto: **Screenplay**  📁
+## Estructura del Proyecto: **Screenplay**  
 **Se aplicará el patrón de diseño Screenplay para separar responsabilidades**
   - **Actor**: Por medio donde ejecutaremos las acciones.
   - **Tasks**: Donde se asignaran las acciones del usuario (actor)
@@ -21,7 +21,7 @@ se explicara a detalle como se compone el framke de esta automatizacion. Su lenj
   - **Questions**:
   *Con este patrón se logrará una mejor reutilización del codigo, mejor escalabilidad(mantenimiento) y responsabilidad unica por componentes*
 
-##Arquitectura Screenplay
+Arquitectura Screenplay 📁
 ```
 src
 ├── main
@@ -47,16 +47,16 @@ src
         └── serenity.conf
 ```
 
-## Implementación para Diferentes Dispositivos Android/iOs 👾🍏
+## Implementación para Diferentes Dispositivos Android/iOs 
   - **gradlew clean test -Denvironment=android, gradlew clean test -Denvironment=ios**. (Ejecutandose desde la raíz del proyecto).
 
 ## Reutilización de Código ✅  *Al usar el patron de diseño Screenplay*
 
-## Manejo de LOGS y Reportes 📋
+## Manejo de LOGS y Reportes 
   - **Se utiliza SLF4J + logback**.
   - **Se generan los reportes usando: gradlew clean test aggregate**. (Recordar que al ser multiplataforma se debe enviar el -Denviroment explicando en puntos anteriores).
 
-## Manejo y Control de Dependencias y ejeción de los test ⛓️
+## Manejo y Control de Dependencias y ejeción de los test
   - **Se utiliza Gradle para: Controlar versiones, ejecución de pruebas, integra reportes**
 
         
