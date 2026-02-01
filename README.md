@@ -21,7 +21,7 @@ se explicara a detalle como se compone el framke de esta automatizacion. Su lenj
   - **Questions**:
   *Con este patrón se logrará una mejor reutilización del codigo, mejor escalabilidad(mantenimiento) y responsabilidad unica por componentes*
 
-#Arquitectura Screenplay
+##Arquitectura Screenplay
 src
 ├── main
 │   └── java
