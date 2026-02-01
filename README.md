@@ -22,6 +22,7 @@ se explicara a detalle como se compone el framke de esta automatizacion. Su lenj
   *Con este patrón se logrará una mejor reutilización del codigo, mejor escalabilidad(mantenimiento) y responsabilidad unica por componentes*
 
 ##Arquitectura Screenplay
+```
 src
 ├── main
 │   └── java
@@ -44,6 +45,7 @@ src
     └── resources
         ├── features
         └── serenity.conf
+```
 
 ## Implementación para Diferentes Dispositivos Android/iOs 👾🍏
   - **gradlew clean test -Denvironment=android, gradlew clean test -Denvironment=ios**. (Ejecutandose desde la raíz del proyecto).
